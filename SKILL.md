@@ -8,7 +8,7 @@ description: |
 
 # Mobile App Builder
 
-Given a competitor app URL/app name or app idea, research it and produce a structured build plan saved to `steve_app_ideas/` folder and auto-pushed to the `app_ideas` GitHub repo.
+Given a competitor app URL/app name or app idea, research it and produce a structured build plan saved to `mobile_app_ideas/` folder and auto-pushed to the `mobile-app-ideas` GitHub repo.
 
 ## Workflow
 
@@ -37,7 +37,7 @@ Classify each component into one of three buckets:
 
 ### 3. Generate the Build Plan
 
-Create a markdown file at: `steve_app_ideas/<app-name>.md`
+Create a markdown file at: `mobile_app_ideas/<app-name>.md`
 
 Structure (follow `references/build-plan-template.md`):
 
@@ -67,7 +67,7 @@ Structure (follow `references/build-plan-template.md`):
 ### 4. Save & Push
 
 ```bash
-cd /root/.openclaw/agents/researcher/workspace/steve_app_ideas
+cd /root/.openclaw/agents/researcher/workspace/mobile_app_ideas
 git add <filename>.md
 git commit -m "Add build plan: <App Name>"
 ```
