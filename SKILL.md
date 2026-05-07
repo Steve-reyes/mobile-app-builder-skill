@@ -53,9 +53,14 @@ Structure (follow `references/build-plan-template.md`):
 ### Directory Structure (Mobile + Backend)
 ### Database Schema (PostgreSQL / Firebase)
 ### API Endpoints
+### Product Requirements Document (PRD)
+### Competitive Landscape Matrix
 ### UI/UX Key Screens
 ### Third-Party Integrations
 ### AI Agent Design (if applicable)
+### SEO & Content Strategy
+### Growth & Viral Loops
+### Revenue Model & Unit Economics
 ### Tech Stack Summary
 ### Estimated MVP Build Time
 ### Cost Estimates (Monthly + One-Time)
@@ -94,3 +99,8 @@ Auto-push is handled by post-commit hook.
 ### references/
 - `build-plan-template.md` — Full template for every mobile app build plan
 - `platform-comparison.md` — React Native vs Flutter vs Swift vs Kotlin comparison
+- `prd-template.md` — Product Requirements Document template
+- `competitive-landscape.md` — Feature comparison across competitors
+- `seo-content-strategy.md` — Keyword clusters, content funnel, distribution
+- `growth-loops.md` — Viral mechanics, acquisition channels, referral design
+- `revenue-model.md` — Pricing tiers, CAC/LTV, break-even analysis
